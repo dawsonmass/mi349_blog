@@ -9,33 +9,90 @@
     <header> 
         <h1>Dawson's Weblog</h1>
         <p>This a blog, were I do blog things and post blog stuff.</p>
+        <nav>
+            <ul>
+                <li><a href="index.html" >Blog</a></li>
+                <li><a href="about.html" >About</a></li>
+                <li><a href="contact.html" >Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html" >Blog</a></li>
-            <li><a href="about.html" >About</a></li>
-        </ul>
-    </nav>
-    <h2>Blog Posts</h2>
-    <section>
-        <article>
+    <section id="blog-post">
+        <h2>Blog Posts</h2>
+        <article class="blog-post">
             <h3>Michigan State Stuns Wisconsin in 2-OT Homecoming Game!</h3>
             <div class="byline">
                 <address class="author">By <a rel="author" href="/author/dawson-mass">Dawson Mass</a></address>
-                on <time pubdate datetime="2022-10-16" title="October 16th, 2022">10/16/22</time>
+                <time datetime="2022-10-16" title="October 16, 2022">Oct 16, 2022</time>
             </div>
+            <table>
+                <tr>
+                    <th>Wins</th>
+                    <th>Losses</th>
+                    <th>TBD</th>
+                </tr>
+                <tr>
+                    <td>W. Michigan</td>
+                    <td>Washington</td>
+                    <td>Michigan</td>
+                </tr>
+                <tr>
+                    <td>Akron</td>
+                    <td>Minnesota</td>
+                    <td>Illios</td>
+                </tr>
+                <tr>
+                    <td>Wisconsin</td>
+                    <td>Maryland</td>
+                    <td>Rutgers</td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td>Ohio State</td>
+                    <td>Indiana</td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td> </td>
+                    <td>Penn State</td>
+                </tr>
+            </table>
                 <p>Fans of Michigan State University Football would be pleased to hear that Michigan State managed to outlast Wisconsin in a battle of attrition on the night of October 15th. The game was truly a thriller featuring everything MSU fans have come to love under new head coach Mel Tucker. Once again Jaden Reed proved to be the savior of the team, throwing a flea flicker to the new breakout star Keon Coleman. This was a very significant win for MSU as they are now 1-3 in conference play and are no longer one of the 2 teams in the BIG10 without a conference win. The Spartans move on to become 3-4 overall with a bye week next week before they take on their rival #4 ranked Michigan in Ann Arbor over Halloween weekend. With the desire to keep the Paul Bunyan trophy home and beat their undefeated rival on the road and finally prove themselves', things seem to be setting up nicely for a potential upset in Ann Arbor.  Tune in on the evening of the 29th to see if the Michigan State Spartans can pull off this upset and keep Mel Tucker undefeated against the University of Michigan and Jim Harbaugh.</p>
-                <p><img src="MSU.jpeg" alt="Michigan State Football"></p>
+                <p><img src="MSU.jpeg" alt="Michigan State Football Team Celebration"></p>
         </article>
-        <article>
+        <article class="blog-post">
             <h3><a href="https://boxd.it/3jR2n3">My Review</a> of <em>Bullet Train</em></h3>
             <div class="byline">
                 <address class="author">By <a rel="author" href="/author/dawson-mass">Dawson Mass</a></address>
-                on <time pubdate datetime="2022-10-16" title="October 16th, 2022">10/16/22</time>
+                <time datetime="2022-10-16" title="October 16, 2022">Oct 16, 2022</time>
             </div>
                 <p>Here is a poorly pieced together review of the movie <em>Bullet Train</em> featuring Brad Pitt. I have to say that I was a really big fan of all the Japanese covers of songs throughout the movie. Always great to see Brad Pitt playing a character created for Cliff Booth. One of the better action movies i have seen in a while, not to say that it does not deserve the credit for that, but I am shocked that I have not seen anything else recently that felt more deserving. All in all the senseless violence and weird yakuza made for a very entertaining plot and to then limit the environment of the movie to a bullet train, SIGN ME UP. <em>Bullet Train</em> really does deserve some credit, good movie in my opinion, worth the 2 hours and a wild ride. CGI was meh at the end, only part that left a bad taste in my mouth. Where it shined, it really shined, but I have to say that the opposite is true to the same accord.</p>
                 <p>Final Score would have to be 3.5/5 stars. While I enjoyed the ride on the train, I have to keep my reviews consistent with each other.</p>
-                <p><img src="BT.jpg" alt="Bullet"></p>
+                <p><img src="BT.jpg" alt="Bullet Train Movie Poster"></p>
+    </section>
+    <section id="contact">
+        <form action="" method="get" class="form-example">
+            <label>Sign up for our newsletter!</label>
+            <div class="form">
+              <label for="name">Enter your name: </label>
+              <input type="text" name="name" id="name" required>
+            </div>
+            <div class="form">
+              <label for="email">Enter your email: </label>
+              <input type="email" name="email" id="email" required>
+            </div>
+            <div class="form">
+                <label for="reason">Reason for contact: </label>
+                <input type="reason" name="reason" id="reason" required>
+              </div>
+            <div class="form">
+              <label for="open-comment">Comments/Questions: </label>
+              <input type="open-comment" name="open-comment" id="open-comment" required>
+            </div>
+            <div class="form">
+              <input type="submit" value="Submit">
+            </div>
+          </form>
     </section>
 </body>
 </html>
