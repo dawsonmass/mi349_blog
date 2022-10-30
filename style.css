@@ -1,0 +1,48 @@
+html {
+    background-color: grey;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 40px;
+    padding: 40px;
+    border-top: 10px solid black;
+    background-color: white;
+    color: black;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+p {
+    line-height: 1.2em;
+}
+
+#blog {
+    border-top: 1px dotted black;
+}
+
+.blog-post {
+    margin: 20px;
+}
+
+#about {
+    border-top: 1px dotted black;
+    line-height: 1.2em;
+}
+
+#contact {
+    color: darkgray;
+}
+
+article {
+    border-bottom: 1px dotted black;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
