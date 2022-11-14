@@ -117,4 +117,20 @@ img {
     border: 1px solid black;
     font-size: 0.7em;
        }
+
+@media (max-width: 400px) {
+    #blog {
+        display: ;
+    }
+
+    img {
+        width: auto ;
+        max-width: 100% ;
+        height: auto ;
+    }
+
+    .container {
+        padding: 14px;
+    }
+}
     
