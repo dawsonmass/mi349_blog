@@ -118,9 +118,9 @@ img {
     font-size: 0.7em;
        }
 
-@media (max-width: 400px) {
+@media (max-width: 800px) {
     #blog {
-        display: ;
+        display: none;
     }
 
     img {
