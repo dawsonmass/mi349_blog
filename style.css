@@ -1,0 +1,143 @@
+html {
+    background-color: grey;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 40px;
+    padding: 40px;
+    border-top: 10px solid black;
+    background-color: white;
+    color: black;
+}
+
+#blog {
+    display: flex;
+
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    background: white;
+  }
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+}
+
+
+p {
+    line-height: 1.2em;
+}
+
+#blog {
+    border-top: 1px dotted black;
+}
+
+.blog-post {
+    margin: 20px;
+}
+
+#about {
+    border-top: 1px dotted black;
+    line-height: 1.2em;
+}
+
+#contact {
+    color: darkgray;
+}
+
+article {
+    border-bottom: 1px dotted black;
+}
+
+table {
+    background: #AFE1AF;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.float-right {
+    float: right;
+    width: 310px;
+    margin: 10px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 0.7em;
+    }
+
+    .float-right-smaller {
+        float: right;
+        width: 210px;
+        margin: 10px;
+        background-color: white;
+        padding: 10px;
+        border: 1px solid black;
+        font-size: 0.7em;
+        }
+
+.float-left {
+    float: left;
+    width: 310px;
+    margin: 10px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 0.7em;
+       }
+
+.center {
+    width: 310px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 0.7em;
+       }
+
+@media (max-width: 400px) {
+    body {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #blog {
+        display: inline;
+    }
+
+    img {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .table {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+    }
+}
+    
